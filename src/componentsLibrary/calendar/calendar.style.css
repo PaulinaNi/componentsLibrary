@@ -1,0 +1,32 @@
+.calendarContainer {
+ background-color: lightgray;
+}
+
+.calendar {
+ display: grid;
+ grid-template-columns: repeat(7, 1fr);
+}
+
+.calendarItem,
+.monthNameContainer {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+.monthNameContainer {
+ grid-area: 1 / 2 / 2 / 7;
+}
+
+.calendarButton {
+ padding: 1rem;
+ cursor: pointer;
+ background-color: transparent;
+ border: none;
+}
+
+@media (min-width: 600px) {
+ .calendarContainer {
+  min-width: 70vw;
+ }
+}
