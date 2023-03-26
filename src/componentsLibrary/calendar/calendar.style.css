@@ -1,5 +1,6 @@
 .calendarContainer {
  background-color: lightgray;
+ font-size: 0.8rem;
 }
 
 .calendar {
@@ -9,6 +10,7 @@
 
 .calendarItem,
 .monthNameContainer {
+ padding: 0.25rem 0;
  display: flex;
  justify-content: center;
  align-items: center;
@@ -25,8 +27,13 @@
  border: none;
 }
 
+.eventDay{
+ background-color: aquamarine;
+}
+
 @media (min-width: 600px) {
  .calendarContainer {
   min-width: 70vw;
+  font-size: 1rem;
  }
 }
