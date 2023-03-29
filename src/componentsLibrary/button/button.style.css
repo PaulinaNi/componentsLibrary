@@ -1,0 +1,11 @@
+.buttonComponent {
+ font-size: 2rem;
+ padding: 0.25em 1em;
+ border-radius: 0.25em;
+ background-color: blue;
+ color: aliceblue;
+ display: inline-block;
+ cursor: pointer;
+ text-decoration: none;
+ border: aliceblue 0.125em solid;
+}
